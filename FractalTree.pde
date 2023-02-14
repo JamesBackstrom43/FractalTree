@@ -8,14 +8,9 @@
     }
     public  void draw() {
       stroke(#4CF536);
-      drawTree(200, 200, 270, recursiveDepth);
-      drawTree(200,200,225,recursiveDepth);
-      drawTree(200,200,180,recursiveDepth);
-      drawTree(200,200,135,recursiveDepth);
-      drawTree(200,200,90,recursiveDepth);
-      drawTree(200,200,45,recursiveDepth);
-      drawTree(200,200,0,recursiveDepth);
-      drawTree(200,200,315,recursiveDepth);
+      for(int i = 0;i<8;i++){
+      drawTree(200, 200, 270 -( 45 * i), recursiveDepth);
+      }
     }
 
     
