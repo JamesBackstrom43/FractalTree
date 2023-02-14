@@ -31,7 +31,7 @@
         drawTree(x2, y2, angle - leftDeltaAngle, depth - 1);
         drawTree(x2, y2, angle + rightDeltaAngle, depth - 1);
     }
-    void keyPressed(){
+   public void keyPressed(){
       if(key == '1'){
         drawTree(200, 200, 270, recursiveDepth);
       }
