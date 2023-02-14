@@ -8,10 +8,7 @@
     }
     public  void draw() {
       stroke(#4CF536);
-      //  drawTree(200, 200,315, recursiveDepth);
-      //  drawTree(200,200,135,recursiveDepth);
-     //   drawTree(200,200,225,recursiveDepth);
-      //  drawTree(200,200,45,recursiveDepth);
+      drawTree(200, 200, 270, recursiveDepth);
     }
 
     
